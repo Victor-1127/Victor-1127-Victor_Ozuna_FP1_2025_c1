@@ -10,6 +10,8 @@ void main(void)
 float PRO;
 printf("ingrese el promedio del alumno: ");
 scanf("%f", &PRO);
-if (PRO >= 6)
-printf("\nAprobado");
+if (PRO >= 60)
+else if (PRO <= 59)
+scanf("%f", &PRO);
+printf("\nReprobado");
 }
